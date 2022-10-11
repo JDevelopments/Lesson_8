@@ -1,0 +1,321 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+body{
+   font-family: Lato, serif;
+   height: 2000px;
+   color: #424551;
+}
+
+.about-curs,
+.process{
+   margin-bottom: 48px;
+}
+
+.page__container
+{
+   padding-top: 25px;
+   max-width: 735px;
+   margin: 0 auto;
+}
+
+.about-curs__chapter {
+   font-size: 46px;
+   font-weight: 900;
+   line-height: 130%;
+   margin-bottom: 40px;
+}
+
+.content-text {
+   line-height: 160%;
+}
+
+.precess__title {
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 150%;
+   margin-bottom: 24px;
+}
+.process__list {
+  line-height:160%;
+}
+
+.process__list li{
+   min-height: 24px;
+   background: url(../img/icons/check.svg) 5px 5px no-repeat;
+   padding-left: 40px
+}
+
+.curator{
+   margin-bottom: 30px;
+   border-bottom: 4px double green;
+}
+
+.curator__title {
+   font-weight: 700;
+   line-height: 150%;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #1E212C;
+   margin-bottom: 8px;
+}
+.curator__fio {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 16px;
+}
+
+.curator__position {
+   font-size: 20px;
+   line-height: 150%;
+   color: #787A80;
+   margin-bottom: 32px;
+}
+.curator__list {
+   font-weight: 700;
+   line-height: 160%;
+   margin-bottom:32px ;
+}
+
+.curator__list li{
+   min-height: 25px;
+}
+
+.curator__list_rate::before {
+   background: url('../img/icons/Star.svg') 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.curator__list_courses-value::before {
+   background: url(../img/icons/Play.svg) 0 0 no-repeat;
+   content: "";
+   width: 16px;
+   height: 16px;
+   display: inline-block;
+   margin-right: 10px;
+}
+.curator__list_students-value::before {
+   background: url(../img/icons/Profile.svg) 0 0 no-repeat;
+   content: "";
+   width: 16px;
+   height: 16px;
+   display: inline-block;
+   margin-right: 10px;
+}
+
+/*--------HOME--------*/
+
+
+
+.haf__hover:hover ,
+.haf__active:active,
+.haf__focus:focus
+ {
+   font-weight: 400;
+   border-bottom: 4px double green;
+}
+
+[class*="haf__"],
+.visit a{
+   height: 50px;
+   width: 120px;
+   font-size: 32px;
+   font-weight: 900;
+   display: inline-block;
+   margin-bottom: 25px;
+}
+
+#my{
+   text-decoration: none;
+   outline: none;
+}
+
+.visit a:visited{
+   font-weight: 400;
+   color:purple;
+   border-bottom: 4px double purple;
+}
+
+.target *{
+   font-size: 20px;
+   color: #787A80;
+   margin-bottom: 32px;
+   line-height:  42px;
+}
+
+#target-element:target{
+   font-weight: 900;
+   text-transform: uppercase;
+   text-shadow: 10px 10px 10px black;
+}
+
+
+[class*="class-"]{
+   font-size: 20px;
+   line-height: 150%;
+   color: #787A80;
+   margin-bottom: 5px;
+}
+
+[class*="class-"] ul{
+   display: none;
+}
+
+[class*="class-"]:hover ul{
+   display: block;
+   margin-left: 25px;
+}
+
+.child{
+   margin-bottom: 40px;
+   border-bottom: 4px double green;
+}
+
+.child p{
+   font-size: 32px;
+   font-weight: 900;
+   border-bottom: 4px double green;
+   margin-bottom: 15px;
+}
+
+.class-first-child li:first-child,
+.class-last-child li:last-child,
+.class-nth-child li:nth-child(2),
+.class-not li:not(:first-child),
+.class-beaf ul li:first-child{
+   font-weight: 700;
+   text-transform: uppercase;
+   color:yellowgreen;
+}
+
+.class-beaf ul li::before ,
+.class-beaf ul li::after{
+   content:"" ;
+   background-color: orange;
+   border-radius: 16px;
+   width: 16px;
+   height: 16px;
+   display: inline-block;
+}
+
+/*-------GAME--------*/
+.game__box{
+   height: 500px;
+   width: 500px;
+   border: 2px dashed green;
+   margin: 0 auto;
+}
+
+.game__title {
+   font-size: 32px;
+   font-weight: 500;
+   letter-spacing: 10px;
+   text-align: center;
+   color: #787A80;
+   text-shadow: 8px 5px 10px green, -8px -5px 10px yellowgreen,-8px 5px 10px yellow,8px -5px 10px yellow;
+   margin-bottom: 10px;
+}
+
+.game li{
+background-color: yellowgreen;
+ 
+}
+
+.game__line0{
+   font-weight: 900;
+   font-size: 24px;
+   background-color: #1E212C;
+   height: 25px;
+   width: 50px;
+   text-align: center;
+}
+
+.game__line1{
+   height:25px;
+   width: 200px;
+   margin-left: 25px;
+}
+
+.game__line2{
+   height: 25px;
+   width: 250px;
+   margin-left: 200px;
+ }
+
+.game__line3{
+height: 100px;
+   width: 25px;
+   margin-left: 425px;
+}
+
+.game__line4{
+   height: 25px;
+   width: 375px;
+   margin-left: 75px;
+}
+
+.game__line5{
+   height: 100px;
+   width: 25px;
+   margin-left: 75px;
+}
+
+.game__line6{
+   height: 25px;
+   width: 325px;
+   margin-left: 75px;
+}
+
+.game__line7{
+   height: 50px;
+   width: 25px;
+   margin-left: 375px;
+}
+
+.game__line8{
+   height: 20px;
+   width: 400px;
+}
+
+.game__line9{
+   height: 50px;
+   width: 25px;
+}
+
+.game__line10{
+   height: 25px;
+   width: 497px;
+}
+
+.game__line11{
+   height: 26px;
+   width: 50px;
+   margin-left: 446px;
+   font-size: 16px;
+   text-align: center;
+   font-weight: 900;
+}
+
+.game__line11:hover,
+.game__line0:hover{
+   text-shadow: 8px 5px 10px green, -8px -5px 10px yellowgreen,-8px 5px 10px yellow,8px -5px 10px yellow; 
+}
+
+.line{
+ visibility: hidden;
+}
+
+.game__line0{
+   visibility: visible;
+}
+
+   .line:hover+.line
+ , .line:hover {
+  visibility: visible;
+ }
+
